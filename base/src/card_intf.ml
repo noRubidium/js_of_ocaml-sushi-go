@@ -25,3 +25,7 @@ module type S = sig
 
   val to_string : t -> string
 end
+
+module type Card = sig
+  module type S = S
+end
