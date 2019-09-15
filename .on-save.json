@@ -1,0 +1,6 @@
+[
+  {
+    "files": "**/*.ml",
+    "command": "ocamlformat ${srcFile} --inplace"
+  }
+]
