@@ -1,10 +1,10 @@
 [
   {
     "files": "**/*.ml",
-    "command": "ocamlformat ${srcFile} --inplace"
+    "command": "ocamlformat ${srcFile} --inplace --field-space=loose --let-and=sparse --parens-tuple=multi-line-only --type-decl=sparse --if-then-else=keyword-first --doc-comment=before"
   },
   {
     "files": "**/*.mli",
-    "command": "ocamlformat ${srcFile} --inplace"
+    "command": "ocamlformat ${srcFile} --inplace --field-space=loose --let-and=sparse --parens-tuple=multi-line-only --type-decl=sparse --if-then-else=keyword-first --doc-comment=before"
   }
 ]

@@ -1,2 +1,3 @@
 open! Core_kernel
-include Card_intf.Card
+
+module type S = Card_intf.S

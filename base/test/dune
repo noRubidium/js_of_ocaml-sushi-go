@@ -1,1 +1,13 @@
-(test (name test_game))
+(library
+  (name test_game)
+  (libraries
+    core
+    sushi_go_base)
+  (inline_tests)
+  (preprocess
+    (pps
+      ppx_jane
+      ppx_expect
+      ppx_deriving.std
+    )
+  ))
